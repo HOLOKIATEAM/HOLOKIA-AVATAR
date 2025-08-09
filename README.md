@@ -49,7 +49,7 @@ HOLOKIA_AVATAR/
 
 ```bash
 git clone https://github.com/HOLOKIATEAM/HOLOKIA_AVATAR.git
-cd HOLOKIA_AVATAR
+cd HOLOKIA-AVATAR
 ```
 
 ### 2. Ajouter le fichier `.env` dans le dossier `Back-end/app`
