@@ -40,7 +40,7 @@ HOLOKIA-AVATAR/
 ## ✅ Pré-requis
 - [x] Une clé API Groq (à coller dans `.env`) dans Back-end
 - [x] Git installé
-
+- [x] python 3.10.16
 ---
 
 ## 🔧 Installation
