@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "wawa-lipsync": ["../../packages/wawa-lipsync/src"]
+      "wawa-lipsync": ["./wawa-lipsync/src"]
     }
   }
 }
