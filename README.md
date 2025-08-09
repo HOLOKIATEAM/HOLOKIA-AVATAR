@@ -48,7 +48,7 @@ HOLOKIA-AVATAR/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/HOLOKIATEAM/HOLOKIA_AVATAR.git
+git clone https://github.com/HOLOKIATEAM/HOLOKIA-AVATAR.git
 cd HOLOKIA-AVATAR
 ```
 
