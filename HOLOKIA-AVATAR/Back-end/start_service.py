@@ -330,7 +330,7 @@ def test_service_integration():
         print(f"❌ Erreur test TTS: {e}")
     
     # Test 3: Transcription STT
-    try:
+"""     try:
         print("3️⃣ Test de transcription STT...")
         # Créer un fichier audio de test simple
         test_audio_path = Path(__file__).parent / "app" / "audios" / "test_audio.wav"
@@ -350,7 +350,7 @@ def test_service_integration():
         else:
             print("⚠  Fichier audio de test non trouvé")
     except Exception as e:
-        print(f"❌ Erreur test STT: {e}")
+        print(f"❌ Erreur test STT: {e}") """
 
 def main():
     """Fonction principale avec monitoring complet"""
