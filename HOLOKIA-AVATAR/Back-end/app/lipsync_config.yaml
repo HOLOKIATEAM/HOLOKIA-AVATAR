@@ -1,0 +1,10 @@
+languages:
+  - fr
+  - en
+  - ar
+speakers:
+  - female-pt-4
+  - male-en-1
+voice_mapping:
+  female-pt-4: "21m00Tcm4TlvDq8ikWAM"  # Rachel - voix féminine
+  male-en-1: "pNInz6obpgDQGcFmaJgB"     # Adam - voix masculine

@@ -1,0 +1,69 @@
+.chat-container {
+  position: relative;
+  z-index: 10;
+}
+
+/* Animations pour les messages */
+@keyframes slide-in-right {
+  from { transform: translateX(60px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slide-in-left {
+  from { transform: translateX(-60px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Animation pour notification erreur */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-8px); }
+  80% { transform: translateX(8px); }
+  100% { transform: translateX(0); }
+}
+.animate-shake {
+  animation: shake 0.4s;
+}
+
+/* Style général pour la notification */
+.notification {
+  min-width: 220px;
+  max-width: 90vw;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+/* Style général pour les messages */
+.message.user {
+  align-self: flex-end;
+}
+.message.avatar {
+  align-self: flex-start;
+}
+
+/* Animation pour l'indicateur de langue */
+@keyframes pulse-glow {
+  0% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.7; transform: scale(1); }
+}
+
+.language-indicator {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Animation pour l'apparition des messages */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
