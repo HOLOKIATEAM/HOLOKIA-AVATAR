@@ -15,7 +15,7 @@ Ce projet est une application web interactive combinant :
 ## 📁 Structure du projet
 
 ```
-HOLOKIA_AVATAR/
+HOLOKIA-AVATAR/
 ├── Back-end/
     ├──app              # API FastAPI + TTS + STT
 │   │   ├── main.py             # Route principale pour la génération IA
@@ -48,8 +48,8 @@ HOLOKIA_AVATAR/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/HOLOKIATEAM/HOLOKIA_AVATAR.git
-cd HOLOKIA_AVATAR
+git clone https://github.com/HOLOKIATEAM/HOLOKIA-AVATAR.git
+cd HOLOKIA-AVATAR
 ```
 
 ### 2. Ajouter le fichier `.env` dans le dossier `Back-end/app`
