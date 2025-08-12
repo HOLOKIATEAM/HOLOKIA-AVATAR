@@ -16,7 +16,7 @@ let setupMode = false;
 
 export function Avatar(props) {
   const { nodes, materials, scene } = useGLTF(
-    "/models/avatar.glb"
+    "/models/avatar-version1.glb"
   );
 
   const { smoothMovements } = useControls("Avatar", {
